@@ -9,11 +9,18 @@
 h1{
   font-family: 'Dancing Script', cursive;
 }
-.carousel-item{
+.carousel-item {
   width: 100%;
   height: 80vh;
 }
 .card-body img {
   min-width: 50%;
   max-height: 200px;
+}
+
+@media screen  and (max-width:768px){
+  .carousel-item img{
+    width: 100%;
+    height: 80vh;
+  }
 }
